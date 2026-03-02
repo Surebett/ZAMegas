@@ -111,10 +111,11 @@ publishMods {
         clientRequired = true
         serverRequired = true
         minecraftVersions.add("1.21.1")
+        projectSlug = "navas-za-megas"
     }
 
     def mrOptions = modrinthOptions {
-        accessToken = curseforgeToken
+        accessToken = modrinthToken
         projectId = project.modrinth_id
         minecraftVersions.add("1.21.1")
     }
@@ -166,13 +167,13 @@ publishMods {
     discord {
         webhookUrl = discordWebhook
         dryRunWebhookUrl = discordWebhook
-        username = "Mega Showdown Changelog"
-        avatarUrl = "https://cdn.modrinth.com/data/SszvX85I/62338ad15814a49df76dfbece1edba24ebca4135.png"
+        username = "ZA Mega Changelog"
+        avatarUrl = "https://media.forgecdn.net/avatars/thumbnails/1657/671/64/64/639056305199960736.png"
         content = changelog.map { "# A new version has been released! \n" + it}
 
         style {
             look = "MODERN"
-            thumbnailUrl = "https://cdn.modrinth.com/data/SszvX85I/62338ad15814a49df76dfbece1edba24ebca4135.png"
+            thumbnailUrl = "https://media.forgecdn.net/avatars/thumbnails/1657/671/64/64/639056305199960736.png"
             color = "#266e10"
         }
     }
