@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.golurk-mega.desc"],
-      "abilities": ["adaptability", "adaptability", "h:adaptability"],
+      "abilities": ["unseenfist", "unseenfist", "h:unseenfist"],
       "labels": ["gen5", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

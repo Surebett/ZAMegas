@@ -6,7 +6,7 @@
       "name": "Mega",
       "labels": ["gen1", "mega"],
       "aspects": ["mega"],
-      "abilities": ["triage", "h:triage"],
+      "abilities": ["innardsout", "h:innardsout"],
       "baseStats": {
         "hp": 80,
         "attack": 125,

@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.starmie-mega.desc"],
-      "abilities": ["purepower", "purepower", "h:purepower"],
+      "abilities": ["hugepower", "hugepower", "h:hugepower"],
       "labels": ["gen1", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

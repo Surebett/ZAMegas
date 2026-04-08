@@ -7,7 +7,7 @@
       "primaryType": "fairy",
       "secondaryType": "flying",
       "pokedex": ["cobblemon.species.clefable-mega.desc"],
-      "abilities": ["prankster", "prankster", "h:prankster"],
+      "abilities": ["magicbounce", "magicbounce", "h:magicbounce"],
       "labels": ["gen1", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

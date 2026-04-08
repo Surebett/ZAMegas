@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.skarmory-mega.desc"],
-      "abilities": ["toughclaws", "toughclaws", "h:toughclaws"],
+      "abilities": ["stalwart", "stalwart", "h:stalwart"],
       "labels": ["gen2", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

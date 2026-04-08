@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.glimmora-mega.desc"],
-      "abilities": ["levitate", "h:levitate"],
+      "abilities": ["adaptability", "h:adaptability"],
       "labels": ["gen9", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.drampa-mega.desc"],
-      "abilities": ["adaptability", "adaptability", "h:adaptability"],
+      "abilities": ["berserk", "berserk", "h:berserk"],
       "labels": ["gen7", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,
