@@ -6,7 +6,7 @@
     {
       "name": "MegaE",
       "pokedex": ["cobblemon.species.floette-mega.desc"],
-      "abilities": ["regenerator", "h:regenerator"],
+      "abilities": ["fairyaura", "h:fairyaura"],
       "labels": ["flower-eternal", "mega", "gen6", "mythical"],
       "aspects": ["mega", "flower-eternal"],
       "battleOnly": true,
@@ -132,7 +132,7 @@
       "primaryType": "fairy",
       "secondaryType": "grass",
       "pokedex": ["cobblemon.species.floette-ange.desc"],
-      "abilities": ["regenerator", "h:regenerator"],
+      "abilities": ["fairyaura", "h:fairyaura"],
       "labels": ["flower-eternal", "gen6", "mythical"],
       "aspects": ["angemax", "flower-eternal"],
       "battleOnly": true,

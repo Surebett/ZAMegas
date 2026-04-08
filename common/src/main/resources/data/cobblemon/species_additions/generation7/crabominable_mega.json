@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.crabominable-mega.desc"],
-      "abilities": ["icescales", "icescales", "h:icescales"],
+      "abilities": ["ironfist", "ironfist", "h:ironfist"],
       "labels": ["gen7", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

@@ -5,7 +5,7 @@
     {
       "name": "Mega",
       "pokedex": ["cobblemon.species.excadrill-mega.desc"],
-      "abilities": ["sandrush", "sandrush", "h:sandrush"],
+      "abilities": ["piercingdrill", "piercingdrill", "h:piercingdrill"],
       "labels": ["gen5", "mega"],
       "aspects": ["mega"],
       "battleOnly": true,

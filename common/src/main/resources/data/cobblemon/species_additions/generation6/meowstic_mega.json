@@ -6,7 +6,7 @@
       "name": "Mega",
       "maleRatio": 0.5,
       "pokedex": ["cobblemon.species.meowstic-mega.desc"],
-      "abilities": ["psychicsurge", "psychicsurge", "h:psychicsurge"],
+      "abilities": ["trace", "trace", "h:trace"],
       "labels": ["mega", "gen6"],
       "aspects": ["mega"],
       "battleOnly": true,

@@ -9,7 +9,7 @@
       "pokedex": ["cobblemon.species.hawlucha-mega.desc"],
       "labels": ["gen6", "mega"],
       "aspects": ["mega"],
-      "abilities": ["stamina", "h:stamina"],
+      "abilities": ["noguard", "h:noguard"],
       "baseStats": {
         "hp": 78,
         "attack": 137,
