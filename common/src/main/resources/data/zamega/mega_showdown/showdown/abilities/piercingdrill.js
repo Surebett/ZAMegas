@@ -1,16 +1,17 @@
 {
-  onTryHit(target, source, move) {
-    if (target.volatiles['protect']) {
-      this.add('-message', `${source.name}'s attack pierces Protect!`);
-      
-      const damage = this.getDamage(source, target, move);
-      if (damage) {
-        this.damage(damage * 0.25, target, source, move);
-      }
-      return null; 
-    }
-  },
-  name: "Piercing Drill",
-  rating: 2,
-  num: 260,
+	onModifyMove(move) {
+		if (move.flags['contact']) {
+			delete move.flags['protect'];
+			move.onBasePowerPriority = 10;
+			move.onBasePower = function (basePower, pokemon, target) {
+				if (target.volatiles['protect'] || target.side.sideConditions['quickguard'] || target.side.sideConditions['wideguard']) {
+					return this.chainModify(0.25);
+				}
+			};
+		}
+	},
+	flags: {},
+	name: "Piercing Drill",
+	rating: 2.5,
+	num: 206
 }
