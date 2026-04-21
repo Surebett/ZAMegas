@@ -3,7 +3,12 @@
   "pokemons": ["Raichu"],
   "aspect_conditions": {
     "apply": {
-      "aspects": ["mega_evolution=mega_y"]
+      "aspects": ["mega_evolution=mega_y"],
+      "aspect": {
+        "blacklist_aspects": [
+          ["alolan"]
+        ]
+      }
     },
     "revert": {
       "aspects": ["mega_evolution=none"]
